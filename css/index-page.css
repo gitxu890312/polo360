@@ -14,15 +14,19 @@ body{
  * logo的样式
  */
 .header{
-	background: skyblue;
+	/*background: skyblue;*/
 	height: 160px;
 }
 .header .logo{
-	width: 288px;
+	width: 270px;
 	height: 76px;
 	padding: 37px 0px 46px 17px;
 	/*background: yellow;*/
-	float: left;
+}
+.header .nav{
+	float: right;
+	padding-top: 50px;
+	padding-right: 16px;
 }
 .header .nav a{
 	text-decoration: none;
@@ -31,10 +35,12 @@ body{
 	font-weight: bold;
 }
 .header .nav li{
-	float: right;
-	border-left: #DFDFDF dashed ;
+	float: left;
+	border-left: 1px #DFDFDF dashed;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .header .nav p{
-	color:#dfdfdf;
+	color:#bfbfbf;
 	font:11px Tahoma 
 }
